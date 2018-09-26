@@ -336,8 +336,8 @@ if __name__ == '__main__':
     # Yann
     faceit.add_video('yann','yann_1.mp4','https://www.youtube.com/watch?v=QxRdWIIyDG8')
     faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=ni6hpxr7jxU')
-    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=Gwad1cWMcC0')
-    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=_CJ9aTFcUMs')
+    faceit.add_video('yann','yann_3.mp4','https://www.youtube.com/watch?v=Gwad1cWMcC0')
+    faceit.add_video('yann','yann_4.mp4','https://www.youtube.com/watch?v=_CJ9aTFcUMs')
 
     FaceIt.add_model(faceit)
 
