@@ -324,21 +324,21 @@ class FaceSwapInterface:
 
 
 if __name__ == '__main__':
-    faceit = FaceIt('fallon_to_oliver', 'fallon', 'oliver')
-    faceit.add_video('oliver', 'oliver_trumpcard.mp4', 'https://www.youtube.com/watch?v=JlxQ3IUWT0I')
-    faceit.add_video('oliver', 'oliver_taxreform.mp4', 'https://www.youtube.com/watch?v=g23w7WPSaU8')
-    faceit.add_video('oliver', 'oliver_zazu.mp4', 'https://www.youtube.com/watch?v=Y0IUPwXSQqg')
-    faceit.add_video('oliver', 'oliver_pastor.mp4', 'https://www.youtube.com/watch?v=mUndxpbufkg')
-    faceit.add_video('oliver', 'oliver_cookie.mp4', 'https://www.youtube.com/watch?v=H916EVndP_A')
-    faceit.add_video('oliver', 'oliver_lorelai.mp4', 'https://www.youtube.com/watch?v=G1xP2f1_1Jg')
-    faceit.add_video('fallon', 'fallon_mom.mp4', 'https://www.youtube.com/watch?v=gjXrm2Q-te4')
-    faceit.add_video('fallon', 'fallon_charlottesville.mp4', 'https://www.youtube.com/watch?v=E9TJsw67OmE')
-    faceit.add_video('fallon', 'fallon_dakota.mp4', 'https://www.youtube.com/watch?v=tPtMP_NAMz0')
-    faceit.add_video('fallon', 'fallon_single.mp4', 'https://www.youtube.com/watch?v=xfFVuXN0FSI')
-    faceit.add_video('fallon', 'fallon_sesamestreet.mp4', 'https://www.youtube.com/watch?v=SHogg7pJI_M')
-    faceit.add_video('fallon', 'fallon_emmastone.mp4', 'https://www.youtube.com/watch?v=bLBSoC_2IY8')
-    faceit.add_video('fallon', 'fallon_xfinity.mp4', 'https://www.youtube.com/watch?v=7JwBBZRLgkM')
-    faceit.add_video('fallon', 'fallon_bank.mp4', 'https://www.youtube.com/watch?v=q-0hmYHWVgE')
+    faceit = FaceIt('geoffrey_to_yann', 'geoffrey', 'yann')
+
+    # Geoffrey
+    faceit.add_video('geoffrey', 'geoffrey_1.mp4', 'https://www.youtube.com/watch?v=zPqFbkdcvWQ')
+    faceit.add_video('geoffrey', 'geoffrey_2.mp4', 'https://www.youtube.com/watch?v=f-08IkK0UxM')
+    faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=uAu3jQWaN6E')
+    faceit.add_video('geoffrey', 'geoffrey_4.mp4', 'https://www.youtube.com/watch?v=XG-dwZMc7Ng')
+    faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=rtGXv88UQ-c')
+    
+    # Yann
+    faceit.add_video('yann','yann_1.mp4','https://www.youtube.com/watch?v=QxRdWIIyDG8')
+    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=ni6hpxr7jxU')
+    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=Gwad1cWMcC0')
+    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=_CJ9aTFcUMs')
+
     FaceIt.add_model(faceit)
 
     parser = argparse.ArgumentParser()
@@ -366,5 +366,3 @@ if __name__ == '__main__':
             print('Need a video to convert. Some ideas: {}'.format(", ".join([video['name'] for video in faceit.all_videos()])))
         else:
             faceit.convert(args.video, duration = args.duration, swap_model = args.swap_model, face_filter = args.face_filter, start_time = args.start_time, photos = args.photos, crop_x = args.crop_x, width = args.width, side_by_side = args.side_by_side)
-
-
