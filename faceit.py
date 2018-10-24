@@ -328,16 +328,27 @@ if __name__ == '__main__':
 
     # Geoffrey
     faceit.add_video('geoffrey', 'geoffrey_1.mp4', 'https://www.youtube.com/watch?v=zPqFbkdcvWQ')
-    faceit.add_video('geoffrey', 'geoffrey_2.mp4', 'https://www.youtube.com/watch?v=f-08IkK0UxM')
-    faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=uAu3jQWaN6E')
-    faceit.add_video('geoffrey', 'geoffrey_4.mp4', 'https://www.youtube.com/watch?v=XG-dwZMc7Ng')
-    faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=rtGXv88UQ-c')
+    faceit.add_video('geoffrey', 'geoffrey_2.mp4', 'https://www.youtube.com/watch?v=uz2kulfbzxc)
+    #faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=uAu3jQWaN6E')
+    faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=XG-dwZMc7Ng')
+    #faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=rtGXv88UQ-c')
+    faceit.add_video('geoffrey', 'geoffrey_4.mp4', 'https://www.youtube.com/watch?v=BA5mK69mgZk')
+    faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=l9RWTMNnvi4')
+    
     
     # Yann
-    faceit.add_video('yann','yann_1.mp4','https://www.youtube.com/watch?v=QxRdWIIyDG8')
-    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=ni6hpxr7jxU')
-    faceit.add_video('yann','yann_3.mp4','https://www.youtube.com/watch?v=Gwad1cWMcC0')
-    faceit.add_video('yann','yann_4.mp4','https://www.youtube.com/watch?v=_CJ9aTFcUMs')
+    faceit.add_video('yann','yann_1.mp4','https://www.youtube.com/watch?v=dzQRCZyE4v0')
+    faceit.add_video('yann','yann_2.mp4','https://www.youtube.com/watch?v=0tEhw5t6rhc')
+    faceit.add_video('yann','yann_3.mp4','https://www.youtube.com/watch?v=JS12eb1cTLE')
+    faceit.add_video('yann','yann_4.mp4','https://www.youtube.com/watch?v=Gwad1cWMcC0')
+    faceit.add_video('yann','yann_5.mp4','https://www.youtube.com/watch?v=ZvMpTm_AXQM')
+    
+    # Andrew Ng
+    faceit.add_video('andrew','andrew_1.mp4','https://www.youtube.com/watch?v=eIBmW04Z6Wk')
+    faceit.add_video('andrew','andrew_2.mp4','https://www.youtube.com/watch?v=Ipdh93DGwxQ')
+    faceit.add_video('andrew','andrew_3.mp4','https://www.youtube.com/watch?v=CLDisFuDnog')
+    faceit.add_video('andrew','andrew_4.mp4','https://www.youtube.com/watch?v=cE9DSa5CM7Q')
+    #faceit.add_video('andrew','andrew_5.mp4','
 
     FaceIt.add_model(faceit)
 
