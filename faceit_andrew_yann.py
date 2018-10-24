@@ -324,16 +324,16 @@ class FaceSwapInterface:
 
 
 if __name__ == '__main__':
-    faceit = FaceIt('geoffrey_to_yann', 'geoffrey', 'yann')
+    faceit = FaceIt('andrew_to_yann', 'andrew', 'yann')
 
     # Geoffrey
-    faceit.add_video('geoffrey', 'geoffrey_1.mp4', 'https://www.youtube.com/watch?v=zPqFbkdcvWQ')
-    faceit.add_video('geoffrey', 'geoffrey_2.mp4', 'https://www.youtube.com/watch?v=uz2kulfbzxc)
+    #faceit.add_video('geoffrey', 'geoffrey_1.mp4', 'https://www.youtube.com/watch?v=zPqFbkdcvWQ')
+    #faceit.add_video('geoffrey', 'geoffrey_2.mp4', 'https://www.youtube.com/watch?v=uz2kulfbzxc)
     #faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=uAu3jQWaN6E')
-    faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=XG-dwZMc7Ng')
+    #faceit.add_video('geoffrey', 'geoffrey_3.mp4', 'https://www.youtube.com/watch?v=XG-dwZMc7Ng')
     #faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=rtGXv88UQ-c')
-    faceit.add_video('geoffrey', 'geoffrey_4.mp4', 'https://www.youtube.com/watch?v=BA5mK69mgZk')
-    faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=l9RWTMNnvi4')
+    #faceit.add_video('geoffrey', 'geoffrey_4.mp4', 'https://www.youtube.com/watch?v=BA5mK69mgZk')
+    #faceit.add_video('geoffrey', 'geoffrey_5.mp4', 'https://www.youtube.com/watch?v=l9RWTMNnvi4')
     
     
     # Yann
